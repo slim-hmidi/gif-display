@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import Box from '@mui/material/Box'
 import Modal from '@mui/material/Modal'
 import { FormattedGifData } from '../types/gif'
@@ -20,7 +20,7 @@ interface Props {
     handleClose: () => void
 }
 
-export default function ModalWrapper (props: Props) {
+export default function ModalWrapper (props: Props): ReactElement {
   const { open, handleClose, selectedGif } = props
 
   const updatedStyle = Object.assign(style, selectedGif?.originalImage?.width)
@@ -30,10 +30,13 @@ export default function ModalWrapper (props: Props) {
       <Modal
         open={open}
         onClose={handleClose}
-        aria-labelledby="modal-gif"
+        data-testid='modal-gif'
       >
         <Box sx={updatedStyle}>
-          <img src={selectedGif?.originalImage?.url} alt={selectedGif?.title} />
+          <img
+            data-testid={`img-${selectedGif?.id}`}
+            src={selectedGif?.originalImage?.url}
+            alt={selectedGif?.title} />
         </Box>
       </Modal>
     </div>

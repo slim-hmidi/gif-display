@@ -1,8 +1,20 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { fetchGifs, searchGifs } from '../api/index'
 import { TrendingGifParams, FormattedGifData } from '../types/gif'
 
+const useIsMountedRef = () => {
+  const isMountedRef = useRef(false)
+  useEffect(() => {
+    isMountedRef.current = true
+    return () => {
+      isMountedRef.current = false
+    }
+  }, [])
+  return isMountedRef
+}
+
 export const useFetchGifs = (params: TrendingGifParams) => {
+  const isMountedRef = useIsMountedRef()
   const [state, setState] = useState({
     status: 'idle',
     data: [] as FormattedGifData[],
@@ -15,18 +27,21 @@ export const useFetchGifs = (params: TrendingGifParams) => {
   })
   const fn = params.q ? searchGifs : fetchGifs
   useEffect(() => {
-    setState({ ...state, status: 'pending' })
     async function loadGifs () {
       try {
+        setState({ ...state, status: 'pending' })
         const { data, totalCount } = await fn(params)
-        setState({ ...state, status: 'resolved', data })
-        setPaginationData({ ...paginationData, totalPages: Math.floor(totalCount / 25), totalCount })
+        if (isMountedRef.current) {
+          setState({ ...state, status: 'resolved', data })
+          const totalPages = totalCount > 25 ? Math.floor(totalCount / 25) : 1
+          setPaginationData({ ...paginationData, totalPages: totalPages, totalCount })
+        }
       } catch (error) {
         setState({ ...state, status: 'rejected', error: error as string })
       }
     }
     loadGifs()
-  }, [params])
+  }, [params, isMountedRef])
 
   return { state, paginationData }
 }

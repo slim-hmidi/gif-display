@@ -3,7 +3,7 @@ import { TrendingGifParams, SearchGifParams, GifResponse, FormattedGifData, ApiR
 
 const trendingEndpoint = 'trending'
 const searchEndpoint = 'search'
-const apiKey = 'tVaJe9QRTL6VZp9xhBkogbNWFTI9hYnJ'
+const apiKey = process.env.REACT_APP_API_KEY
 
 const client = async (endpoint: string, queryParams: string): Promise<ApiResponse> => {
   const config = {

@@ -1,9 +1,7 @@
-import React, { useState, ReactElement, ChangeEvent, useCallback, useEffect } from 'react'
-import debounce from 'lodash.debounce'
+import React, { useState, ReactElement, useEffect } from 'react'
 import CircularProgress from '@mui/material/CircularProgress'
 import Grid from '@mui/material/Grid'
 import Pagination from '@mui/material/Pagination'
-import TextField from '@mui/material/TextField'
 import ListItem from '../components/ListItem'
 import ModalWrapper from '../components/Modal'
 import { FormattedGifData } from '../types/gif'
@@ -22,20 +20,31 @@ const style = {
     position: 'absolute' as 'absolute',
     top: '25%',
     left: '40%'
+  },
+  pagination: {
+    position: 'absolute' as 'absolute',
+    left: '40%'
+  },
+  item: {
+    marginBottom: '1%'
   }
 
 }
-
-export default function GifList (): ReactElement {
+interface Props {
+  searchValue: string
+}
+export default function GifList (props: Props): ReactElement {
+  const { searchValue } = props
   const [open, setOpen] = useState(false)
   const [selectedGif, setSelectedGif] = useState({} as FormattedGifData)
   const [gifParams, setGifParams] = useState({
-    q: '',
+    q: searchValue,
     offset: 0,
     limit: 25,
     rating: 'g',
     bundle: 'messaging_non_clips'
   })
+
   const { state, paginationData } = useFetchGifs(gifParams)
   const { data, status } = state
   const [pagination, setPagination] = useState(paginationData)
@@ -46,6 +55,10 @@ export default function GifList (): ReactElement {
       setPagination({ ...paginationData, page })
     }
   }, [paginationData.totalCount])
+
+  useEffect(() => {
+    setGifParams({ ...gifParams, q: searchValue })
+  }, [searchValue])
 
   // handlers
   const handlePageChange = (event: React.ChangeEvent<unknown>, value: number) => {
@@ -61,14 +74,6 @@ export default function GifList (): ReactElement {
     }
   }
 
-  const handleSearchChange = (event: ChangeEvent<any>) => {
-    const { value } = event.target
-    setGifParams({ ...gifParams, q: value })
-  }
-
-  const debouncedSearchChangeHandler = useCallback(debounce(handleSearchChange, 300)
-    , [])
-
   const gifPreviewHandler = (id: string) => {
     const gif = data.find((elem) => elem.id === id)
     if (gif) {
@@ -82,7 +87,7 @@ export default function GifList (): ReactElement {
   }
 
   if (status === 'rejected') {
-    return <h1>Oops an error occurs</h1>
+    return <h1 data-testid="gif-error-message">Oops an error occurs</h1>
   }
 
   if (status === 'pending') {
@@ -90,7 +95,7 @@ export default function GifList (): ReactElement {
   }
 
   return (
-    <div>
+    <div data-testid='wrapper'>
             <ModalWrapper
               open={open}
               handleClose={handleClose}
@@ -100,40 +105,38 @@ export default function GifList (): ReactElement {
                 justifyContent="center"
                 spacing={4}>
                 <Grid item>
-                  <TextField
-                    id="search-field"
-                    label="Search Gif"
-                    variant="outlined"
-                    style={style.searchField}
-                    onChange={debouncedSearchChangeHandler}
-                    />
-                    </Grid>
-                <Grid item>
-                  <Grid container spacing={2}>
+                  <Grid container justifyContent="space-around">
                     {data.length
                       ? data.map((elem) => (
-                      <Grid key={elem.id} item xs={3}>
+                      <Grid key={elem.id} item style={style.item}>
                                     <ListItem
                                       key={elem.id}
+                                      id={elem.id}
                                       title={elem.title}
                                       url={elem.fixedHeightImage.url}
                                       gifPreviewHandler={() => gifPreviewHandler(elem.id)} />
                         </Grid>
                       ))
-                      : <h1 style={style.message}>No Gif(s) found</h1>
+                      : <h1
+                        data-testid='no-gif-message'
+                        style={style.message}
+                        >No Gif(s) found</h1>
                     }
                   </Grid>
                   </Grid>
-                  <Grid item>
+                  </Grid>
+                  <div style={style.pagination}>
                     {
-                      pagination.totalPages
-                        ? <Pagination count={pagination.totalPages} page={pagination.page} onChange={handlePageChange} />
+                      pagination.totalPages && data.length
+                        ? <Pagination
+                          data-testid='pagination'
+                          count={pagination.totalPages}
+                          page={pagination.page}
+                          onChange={handlePageChange} />
                         : null
 
                     }
-
-                  </Grid>
-                  </Grid>
+                  </div>
             </div>
 
   )

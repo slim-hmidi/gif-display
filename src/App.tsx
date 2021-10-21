@@ -1,10 +1,10 @@
 import React from 'react'
-import GifList from './containers/GifList'
+import GifDisplayList from './containers/GifDisplayList'
 
 function App () {
   return (
     <div className="App">
-      <GifList />
+      <GifDisplayList />
     </div>
   )
 }

@@ -1,0 +1,353 @@
+{
+	"data": [
+		{
+			"type": "gif",
+			"id": "BB2ZPZ8yaNkGdAE0Z3",
+			"url": "https://giphy.com/gifs/lightsum-vanilla-BB2ZPZ8yaNkGdAE0Z3",
+			"slug": "lightsum-vanilla-BB2ZPZ8yaNkGdAE0Z3",
+			"bitly_gif_url": "https://gph.is/g/ZxL9Gy6",
+			"bitly_url": "https://gph.is/g/ZxL9Gy6",
+			"embed_url": "https://giphy.com/embed/BB2ZPZ8yaNkGdAE0Z3",
+			"username": "lightsum",
+			"source": "https://www.youtube.com/watch?v=d74cH816kFQ",
+			"title": "K-Pop Vanilla GIF by LIGHTSUM",
+			"rating": "g",
+			"content_url": "",
+			"source_tld": "www.youtube.com",
+			"source_post_url": "https://www.youtube.com/watch?v=d74cH816kFQ",
+			"is_sticker": 0,
+			"import_datetime": "2021-07-16 12:49:10",
+			"trending_datetime": "2021-10-20 20:01:03",
+			"images": {
+				"original": {
+					"height": "270",
+					"width": "480",
+					"size": "822460",
+					"url": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/giphy.gif",
+					"mp4_size": "159555",
+					"mp4": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/giphy.mp4",
+					"webp_size": "137080",
+					"webp": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/giphy.webp",
+					"frames": "14",
+					"hash": "a06298d56d245e4a3ae78aeb5a7560ec"
+				},
+				"fixed_height": {
+					"height": "200",
+					"width": "356",
+					"size": "372441",
+					"url": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200.gif",
+					"mp4_size": "106407",
+					"mp4": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200.mp4",
+					"webp_size": "101292",
+					"webp": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200.webp"
+				},
+				"fixed_height_downsampled": {
+					"height": "200",
+					"width": "356",
+					"size": "170061",
+					"url": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200_d.gif",
+					"webp_size": "85228",
+					"webp": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200_d.webp"
+				},
+				"fixed_height_small": {
+					"height": "100",
+					"width": "178",
+					"size": "125674",
+					"url": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/100.gif",
+					"mp4_size": "45990",
+					"mp4": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/100.mp4",
+					"webp_size": "47432",
+					"webp": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/100.webp"
+				},
+				"fixed_width": {
+					"height": "113",
+					"width": "200",
+					"size": "175327",
+					"url": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200w.gif",
+					"mp4_size": "49152",
+					"mp4": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200w.mp4",
+					"webp_size": "51884",
+					"webp": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200w.webp"
+				},
+				"fixed_width_downsampled": {
+					"height": "113",
+					"width": "200",
+					"size": "72016",
+					"url": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200w_d.gif",
+					"webp_size": "34378",
+					"webp": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/200w_d.webp"
+				},
+				"fixed_width_small": {
+					"height": "57",
+					"width": "100",
+					"size": "47203",
+					"url": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/100w.gif",
+					"mp4_size": "22991",
+					"mp4": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/100w.mp4",
+					"webp_size": "23926",
+					"webp": "https://media2.giphy.com/media/BB2ZPZ8yaNkGdAE0Z3/100w.webp"
+				}
+			},
+			"user": {
+				"avatar_url": "https://media0.giphy.com/avatars/lightsum/dvcPFtC3PZVB.jpg",
+				"banner_image": "https://media0.giphy.com/headers/lightsum/sYUaZH4ZSdRH.jpg",
+				"banner_url": "https://media0.giphy.com/headers/lightsum/sYUaZH4ZSdRH.jpg",
+				"profile_url": "https://giphy.com/lightsum/",
+				"username": "lightsum",
+				"display_name": "LIGHTSUM",
+				"description": "",
+				"instagram_url": "https://instagram.com/cube_lightsum",
+				"website_url": "",
+				"is_verified": true
+			},
+			"analytics_response_payload": "e=Z2lmX2lkPUJCMlpQWjh5YU5rR2RBRTBaMyZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc",
+			"analytics": {
+				"onload": {
+					"url": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZ2lmX2lkPUJCMlpQWjh5YU5rR2RBRTBaMyZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc&action_type=SEEN"
+				},
+				"onclick": {
+					"url": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZ2lmX2lkPUJCMlpQWjh5YU5rR2RBRTBaMyZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc&action_type=CLICK"
+				},
+				"onsent": {
+					"url": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZ2lmX2lkPUJCMlpQWjh5YU5rR2RBRTBaMyZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc&action_type=SENT"
+				}
+			}
+		},
+		{
+			"type": "gif",
+			"id": "SwIMZUJE3ZPpHAfTC4",
+			"url": "https://giphy.com/gifs/mumbaiindians-happy-birthday-mi-ipl-SwIMZUJE3ZPpHAfTC4",
+			"slug": "mumbaiindians-happy-birthday-mi-ipl-SwIMZUJE3ZPpHAfTC4",
+			"bitly_gif_url": "https://gph.is/g/ZywWQ8e",
+			"bitly_url": "https://gph.is/g/ZywWQ8e",
+			"embed_url": "https://giphy.com/embed/SwIMZUJE3ZPpHAfTC4",
+			"username": "mumbaiindians",
+			"source": "www.mumbaiindians.com",
+			"title": "Happy Birthday GIF by Mumbai Indians",
+			"rating": "g",
+			"content_url": "",
+			"source_tld": "",
+			"source_post_url": "www.mumbaiindians.com",
+			"is_sticker": 0,
+			"import_datetime": "2020-02-12 07:46:06",
+			"trending_datetime": "0000-00-00 00:00:00",
+			"images": {
+				"original": {
+					"height": "480",
+					"width": "480",
+					"size": "1482088",
+					"url": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/giphy.gif",
+					"mp4_size": "836921",
+					"mp4": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/giphy.mp4",
+					"webp_size": "774422",
+					"webp": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/giphy.webp",
+					"frames": "63",
+					"hash": "b720f79633adf2cab4efd09f0afef538"
+				},
+				"fixed_height": {
+					"height": "200",
+					"width": "200",
+					"size": "426061",
+					"url": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200.gif",
+					"mp4_size": "299499",
+					"mp4": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200.mp4",
+					"webp_size": "664180",
+					"webp": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200.webp"
+				},
+				"fixed_height_downsampled": {
+					"height": "200",
+					"width": "200",
+					"size": "43964",
+					"url": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200_d.gif",
+					"webp_size": "56560",
+					"webp": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200_d.webp"
+				},
+				"fixed_height_small": {
+					"height": "100",
+					"width": "100",
+					"size": "207918",
+					"url": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/100.gif",
+					"mp4_size": "116544",
+					"mp4": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/100.mp4",
+					"webp_size": "274886",
+					"webp": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/100.webp"
+				},
+				"fixed_width": {
+					"height": "200",
+					"width": "200",
+					"size": "426061",
+					"url": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200w.gif",
+					"mp4_size": "299499",
+					"mp4": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200w.mp4",
+					"webp_size": "664180",
+					"webp": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200w.webp"
+				},
+				"fixed_width_downsampled": {
+					"height": "200",
+					"width": "200",
+					"size": "43964",
+					"url": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200w_d.gif",
+					"webp_size": "56560",
+					"webp": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/200w_d.webp"
+				},
+				"fixed_width_small": {
+					"height": "100",
+					"width": "100",
+					"size": "207918",
+					"url": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/100w.gif",
+					"mp4_size": "49536",
+					"mp4": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/100w.mp4",
+					"webp_size": "274886",
+					"webp": "https://media3.giphy.com/media/SwIMZUJE3ZPpHAfTC4/100w.webp"
+				}
+			},
+			"user": {
+				"avatar_url": "https://media3.giphy.com/avatars/mumbaiindians/Nl02hn5EYGVA.gif",
+				"banner_image": "https://media3.giphy.com/headers/mumbaiindians/N1iJXtHmzxBk.gif",
+				"banner_url": "https://media3.giphy.com/headers/mumbaiindians/N1iJXtHmzxBk.gif",
+				"profile_url": "https://giphy.com/mumbaiindians/",
+				"username": "mumbaiindians",
+				"display_name": "Mumbai Indians",
+				"description": "#OneFamily",
+				"instagram_url": "https://instagram.com/mumbaiindians",
+				"website_url": "http://www.mumbaiindians.com",
+				"is_verified": true
+			},
+			"analytics_response_payload": "e=Z2lmX2lkPVN3SU1aVUpFM1pQcEhBZlRDNCZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc",
+			"analytics": {
+				"onload": {
+					"url": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZ2lmX2lkPVN3SU1aVUpFM1pQcEhBZlRDNCZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc&action_type=SEEN"
+				},
+				"onclick": {
+					"url": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZ2lmX2lkPVN3SU1aVUpFM1pQcEhBZlRDNCZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc&action_type=CLICK"
+				},
+				"onsent": {
+					"url": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZ2lmX2lkPVN3SU1aVUpFM1pQcEhBZlRDNCZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc&action_type=SENT"
+				}
+			}
+		},
+		{
+			"type": "gif",
+			"id": "s3y67QPuJnggjl52si",
+			"url": "https://giphy.com/gifs/CreateDrop-halloween-spooky-skellington-s3y67QPuJnggjl52si",
+			"slug": "CreateDrop-halloween-spooky-skellington-s3y67QPuJnggjl52si",
+			"bitly_gif_url": "https://gph.is/g/ZnN18nK",
+			"bitly_url": "https://gph.is/g/ZnN18nK",
+			"embed_url": "https://giphy.com/embed/s3y67QPuJnggjl52si",
+			"username": "CreateDrop",
+			"source": "",
+			"title": "Dance Animation GIF by CreateDrop",
+			"rating": "g",
+			"content_url": "",
+			"source_tld": "",
+			"source_post_url": "",
+			"is_sticker": 0,
+			"import_datetime": "2021-01-08 15:32:14",
+			"trending_datetime": "2021-10-20 20:00:14",
+			"images": {
+				"original": {
+					"height": "480",
+					"width": "480",
+					"size": "8908108",
+					"url": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/giphy.gif",
+					"mp4_size": "1592027",
+					"mp4": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/giphy.mp4",
+					"webp_size": "1722864",
+					"webp": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/giphy.webp",
+					"frames": "145",
+					"hash": "c4e3928f85d405d2a40ea05f589d6bcd"
+				},
+				"fixed_height": {
+					"height": "200",
+					"width": "200",
+					"size": "1452672",
+					"url": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200.gif",
+					"mp4_size": "325123",
+					"mp4": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200.mp4",
+					"webp_size": "454840",
+					"webp": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200.webp"
+				},
+				"fixed_height_downsampled": {
+					"height": "200",
+					"width": "200",
+					"size": "59526",
+					"url": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200_d.gif",
+					"webp_size": "25008",
+					"webp": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200_d.webp"
+				},
+				"fixed_height_small": {
+					"height": "100",
+					"width": "100",
+					"size": "472341",
+					"url": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/100.gif",
+					"mp4_size": "119337",
+					"mp4": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/100.mp4",
+					"webp_size": "189690",
+					"webp": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/100.webp"
+				},
+				"fixed_width": {
+					"height": "200",
+					"width": "200",
+					"size": "1452672",
+					"url": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200w.gif",
+					"mp4_size": "325123",
+					"mp4": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200w.mp4",
+					"webp_size": "454840",
+					"webp": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200w.webp"
+				},
+				"fixed_width_downsampled": {
+					"height": "200",
+					"width": "200",
+					"size": "59526",
+					"url": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200w_d.gif",
+					"webp_size": "25008",
+					"webp": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/200w_d.webp"
+				},
+				"fixed_width_small": {
+					"height": "100",
+					"width": "100",
+					"size": "472341",
+					"url": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/100w.gif",
+					"mp4_size": "44474",
+					"mp4": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/100w.mp4",
+					"webp_size": "189690",
+					"webp": "https://media1.giphy.com/media/s3y67QPuJnggjl52si/100w.webp"
+				}
+			},
+			"user": {
+				"avatar_url": "https://media3.giphy.com/avatars/CreateDrop/DeBSbUia5T4m.png",
+				"banner_image": "",
+				"banner_url": "",
+				"profile_url": "https://giphy.com/CreateDrop/",
+				"username": "CreateDrop",
+				"display_name": "CreateDrop",
+				"description": "Hi there, we’re CreateDrop. We're a London based studio that makes thumb stopping animated videos for global brands and emerging businesses. Fast.",
+				"instagram_url": "https://instagram.com/createdrop",
+				"website_url": "https://www.createdrop.co/",
+				"is_verified": false
+			},
+			"analytics_response_payload": "e=Z2lmX2lkPXMzeTY3UVB1Sm5nZ2psNTJzaSZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc",
+			"analytics": {
+				"onload": {
+					"url": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZ2lmX2lkPXMzeTY3UVB1Sm5nZ2psNTJzaSZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc&action_type=SEEN"
+				},
+				"onclick": {
+					"url": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZ2lmX2lkPXMzeTY3UVB1Sm5nZ2psNTJzaSZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc&action_type=CLICK"
+				},
+				"onsent": {
+					"url": "https://giphy-analytics.giphy.com/v2/pingback_simple?analytics_response_payload=e%3DZ2lmX2lkPXMzeTY3UVB1Sm5nZ2psNTJzaSZldmVudF90eXBlPUdJRl9UUkVORElORyZjaWQ9NDZkN2MyYjgzeDdsOHFkZTNhYWE2OTdxeHhmZDZuZnQwZnVvenRneWg0MWJnMm9uJmN0PWc&action_type=SENT"
+				}
+			}
+		}
+	],
+    "pagination": {
+            "total_count": 3,
+            "count": 3,
+            "offset": 0
+    },
+    "meta": {
+            "status": 200,
+            "msg": "OK",
+            "response_id": "3x7l8qde3aaa697qxxfd6nft0fuoztgyh41bg2on"
+    }
+}
